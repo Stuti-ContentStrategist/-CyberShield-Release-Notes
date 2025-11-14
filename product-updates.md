@@ -2,132 +2,85 @@
 
 ## 🧱 Overview
 
-The **CyberShield Release Notes** provide a detailed summary of all updates, improvements, and feature releases across the CyberShield Security Suite.&#x20;
+The Product Updates page explains new features, improvements, and fixes in a clear, user-friendly format. It highlights how each change impacts security, usability, and performance.
 
-Each release highlights **new capabilities, fixes, and deprecations** that enhance system performance, compliance, and usability for enterprise users and developers alike.
-
-💡 **Tip:** Use the sidebar to view detailed notes for each version — or jump to the **Changelog** for a concise, at-a-glance timeline of product evolution.
+💡 **Tip:** Select a version in the sidebar for full release notes and compatibility details.
 
 ***
 
-### 📚 Explore the Documentation
-
-| **Section**             | **Description**                                                                                         |
-| ----------------------- | ------------------------------------------------------------------------------------------------------- |
-| 🆕 **Version Releases** | Detailed release notes by version, including new features, improvements, fixes, and compliance updates. |
-| 📜 **Changelog**        | A chronological summary of all version changes, serving as a quick technical reference.                 |
-| 📢 **Product Updates**  | Highlights of key product improvements and business-impacting changes across versions.                  |
-
-💬 **Tip:** Review this section before upgrading or integrating CyberShield SDKs to ensure version compatibility.
+## 🧩 **Detail Log by Version**
 
 ***
 
-### 🧾 Version History
+#### 🔹 **v5.0.0 — Major Release**
 
-| **Version** | **Date**     | **Type**   | **Summary**                                                                                    |
-| ----------- | ------------ | ---------- | ---------------------------------------------------------------------------------------------- |
-| v5.0.0      | Nov 5, 2025  | Major      | Introduced AI-assisted Threat Detection Engine, Secure API Gateway, and centralized dashboard. |
-| v4.3.0      | May 5, 2025  | Minor      | Added malware detection module, remote access controls, and analytics widgets.                 |
-| v4.1.5      | Mar 20, 2025 | Patch      | Improved endpoint sync, updated Linux agent installer, fixed dashboard display bugs.           |
-| v4.0.8      | Feb 10, 2025 | Patch      | Fixed API token vulnerability, improved endpoint encryption, and login stability.              |
-| v3.9.5      | Dec 18, 2024 | Minor      | Added MFA setup guide and improved compatibility with macOS Monterey.                          |
-| v3.9.2      | Nov 12, 2024 | Compliance | Enhanced GDPR, SOC 2, and PCI DSS alignment with automated audit logs.                         |
-| v3.8.7      | Sep 2, 2024  | Patch      | Resolved agent timeout issues and optimized threat scan intervals.                             |
-| v3.8.4      | Jun 15, 2024 | Patch      | Deprecated FTP log exports, improved SFTP performance, and TLS updates.                        |
+This release introduces next-generation threat detection and stronger authentication workflows.
+
+* **AI-Assisted Anomaly Detection:** Improves incident accuracy by analyzing behavioural patterns.
+* **Biometric MFA:** Adds fingerprint and face recognition for more secure logins.
+* **Secure API Gateway:** Provides a protected and centralized entry point for all API access.
+* **Enhanced Analytics Dashboard:** Offers clearer insights with improved visual components.
+* **Deprecated HTTP Endpoints:** Ensures all communication uses secure, encrypted channels.
 
 ***
 
-### 🧩 Detail Log by Version
+#### 🔹 **v4.3.0 — Minor Update**
 
-#### 🔹 v5.0.0 — Major Release
+Focuses on advanced detection and improved remote operations.
 
-* Introduced AI-assisted anomaly detection engine.
-* Added Multi-Factor Authentication with biometric support.
-* Integrated Secure API Gateway.
-* Improved dashboard analytics visualization.
-* Deprecated HTTP-based API endpoints.
-
-***
-
-#### 🔹 v4.3.0 — Minor Update
-
-* Launched malware detection powered by machine learning.
-* Added secure remote management module.
-* Optimized network scan performance.
-* Introduced “Threat Analytics” widgets in dashboard.
+* **ML-Based Malware Detection:** Identifies sophisticated threats using machine-learning techniques.
+* **Secure Remote Management:** Enables safe configuration changes across distributed systems.
+* **Faster Network Scanning:** Improves performance in large and complex environments.
+* **Threat Analytics Widgets:** Surface key metrics, trends, and alerts directly on dashboards.
 
 ***
 
-#### 🔹 v4.1.5 — Patch Update
+#### 🔹 **v4.0.8 — Patch Update**
 
-* Enhanced synchronization between endpoint and cloud registry.
-* Fixed role-based access display bug in admin panel.
-* Updated Linux agent compatibility for kernel 6.1.
+Addresses authentication reliability and encryption hardening.
 
-***
-
-#### 🔹 v4.0.8 — Patch Update
-
-* Fixed token reuse vulnerability in authentication API.
-* Patched encryption routines in endpoint agent.
-* Improved login flow under heavy server load.
+* **Token Reuse Fix:** Prevents unintended reuse of session tokens.
+* **Encryption Routine Update:** Ensures endpoint security aligns with modern standards.
+* **Login Flow Optimization:** Makes authentication more responsive during high load.
 
 ***
 
-#### 🔹 v3.9.5 — Minor Update
+#### 🔹 **v3.9.5 — Minor Update**
 
-* Updated onboarding documentation visuals.
-* Improved agent compatibility for latest Windows/macOS builds.
+Improves onboarding experience and agent compatibility.
 
-***
-
-#### 🔹 v3.9.2 — Regulatory Compliance
-
-* Updated data-handling policies to meet GDPR standards.
-* Implemented automated audit log generation.
-* Enhanced encryption to align with PCI DSS v4.0.
+* **Updated Onboarding UI:** Offers clearer guidance for new users.
+* **Enhanced Agent Compatibility:** Ensures stable operation on the latest operating system releases.
 
 ***
 
-#### 🔹 v3.8.7 — Patch Update
+#### 🔹 **v3.9.2 — Compliance Update**
 
-* Improved scan stability for large datasets.
-* Resolved logging latency during simultaneous scans.
-* Optimized report generation for multi-agent systems.
+Brings CyberShield into alignment with global regulatory frameworks.
 
-***
-
-#### 🔹 v3.8.4 — Patch Update
-
-* Deprecated legacy FTP-based export methods.
-* Enhanced SFTP and API log export functionality.
-* Updated encryption libraries for TLS 1.3 compliance.
+* **GDPR Enhancements:** Strengthens data protection workflows.
+* **Automated Audit Logs:** Simplifies compliance reporting and traceability.
+* **PCI DSS v4.0 Encryption:** Updates cryptographic standards to meet industry regulations.
 
 ***
 
-### ⚙️ Formatting Standard
+#### 🔹 **v3.8.7 — Patch Update**
 
-| **Category** | **Emoji** | **Use Case**               |
-| ------------ | --------- | -------------------------- |
-| New Feature  | 🚀        | Introduced capabilities    |
-| Improvement  | ⚡         | Performance or usability   |
-| Fix          | 🐛        | Bug correction             |
-| Compliance   | 🧾        | Regulation alignment       |
-| Deprecation  | 🗑        | Removed or sunset features |
+Improves system stability and performance during intensive operations.
 
-💬 **Note:** Use consistent icons and tense across all version pages for visual and editorial consistency.
+* **Stability Improvements:** Enhances scan performance on large datasets.
+* **Logging Fixes:** Reduces latency during simultaneous scans.
+* **Report Optimization:** Speeds up generation of multi-agent reports.
 
 ***
 
-### 💡 Best Practice Guidelines
+#### 🔹 **v3.8.4 — Patch Update**
 
-✅ Keep entries concise and in past tense.\
-✅ Include only meaningful user-impacting changes.\
-✅ Maintain one consistent emoji system across all documents.\
-✅ Update the Changelog before publishing Release Notes.\
-✅ Maintain backward links (e.g., _v4.3.0 → “View Details”_).
+Introduces secure export methods and updated encryption support.
 
-🧠 **Info:** The changelog and release notes together demonstrate _technical maturity, version control discipline, and clear communication across teams._
+* **FTP Deprecation:** Replaces outdated export method with modern alternatives.
+* **Improved SFTP/API Export:** Ensures faster and more reliable log transfers.
+* **TLS 1.3 Encryption:** Updates libraries to support modern encryption protocols.
 
 #### 🧭 **End of Guide!**
 

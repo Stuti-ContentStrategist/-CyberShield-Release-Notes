@@ -1,91 +1,78 @@
 # 📜 Changelog
 
-## 🧱 Overview
+## 🧱 **Overview**
 
-The **CyberShield Changelog** provides a detailed, chronological record of all product versions — documenting fixes, improvements, and feature additions.
-
-It serves as a technical log for developers, QA teams, and product managers to track incremental evolution over time.
-
-> 💡 **Tip:** A changelog is factual, not promotional — it should record _what changed_, _when_, and _why it matters._
+A chronological, technical log of all CyberShield product changes.\
+Entries are concise, factual, and limited to user-impacting modifications.
 
 ***
 
-### 🧾 Version History
+## 🧾 **Version History**
 
-| **Version** | **Date**     | **Type**   | **Summary**                                                                                    |
-| ----------- | ------------ | ---------- | ---------------------------------------------------------------------------------------------- |
-| **v5.0.0**  | Nov 5, 2025  | Major      | Introduced AI-assisted Threat Detection Engine, Secure API Gateway, and centralized dashboard. |
-| **v4.3.0**  | May 5, 2025  | Minor      | Added malware detection module, remote access controls, and analytics widgets.                 |
-| **v4.0.8**  | Feb 10, 2025 | Patch      | Fixed API token vulnerability, improved endpoint encryption, and login stability.              |
-| **v3.9.5**  | Dec 18, 2024 | Minor      | Added new MFA setup guide and updated compatibility for macOS Monterey.                        |
-| **v3.9.2**  | Nov 12, 2024 | Compliance | Enhanced GDPR, SOC 2, and PCI DSS alignment with audit-ready logs.                             |
-
-***
-
-### 🧩 Detail Log by Version
-
-#### 🔹 v5.0.0 — _Major Release_
-
-* Introduced AI-assisted anomaly detection.
-* Added Multi-Factor Authentication with biometric support.
-* Integrated Secure API Gateway.
-* Improved dashboard analytics visualization.
-* Deprecated HTTP-based API endpoints.
+* v5.0.0 — Major Release
+* v4.3.0 — Minor Update
+* v4.0.8 — Patch Update
+* v3.9.5 — Minor Update
+* v3.9.2 — Compliance Update
+* v3.8.7 — Patch Update
+* v3.8.4 — Patch Update
 
 ***
 
-#### 🔹 v4.3.0 — _Minor Update_
+## 🧩 **Detail Log by Version**
 
-* Launched malware detection with machine learning.
-* Added secure remote management module.
-* Optimized performance for large-scale network scans.
-* Introduced “Threat Analytics” widgets in dashboard.
+#### 🔹 **v5.0.0 — Major Release**
 
-***
-
-#### 🔹 v4.0.8 — _Patch Update_
-
-* Fixed token reuse vulnerability in authentication API.
-* Patched encryption routines in endpoint agent.
-* Improved login flow under high server load.
+* Introduced AI-assisted anomaly detection
+* Added biometric-enabled multi-factor authentication
+* Integrated Secure API Gateway
+* Updated dashboard analytics visualization
+* Deprecated HTTP-based API endpoints
 
 ***
 
-#### 🔹 v3.9.5 — _Minor Update_
+#### 🔹 **v4.3.0 — Minor Update**
 
-* Updated onboarding documentation with new visuals.
-* Improved agent compatibility with latest Windows and macOS builds.
-
-***
-
-#### 🔹 v3.9.2 — _Regulatory Compliance_
-
-* Updated data handling policies to meet GDPR standards.
-* Implemented automated audit log generation.
-* Enhanced encryption to align with PCI DSS v4.0.
+* Added machine-learning malware detection
+* Implemented secure remote management
+* Improved large-scale network scan performance
+* Added Threat Analytics dashboard widgets
 
 ***
 
-### ⚙️ Formatting Standard
+#### 🔹 **v4.0.8 — Patch Update**
 
-| **Category**    | **Emoji** | **Use Case**               |
-| --------------- | --------- | -------------------------- |
-| **New Feature** | 🚀        | Introduced capabilities    |
-| **Improvement** | ⚡         | Performance or usability   |
-| **Fix**         | 🐛        | Bug correction             |
-| **Compliance**  | 🧾        | Regulation alignment       |
-| **Deprecation** | 🗑        | Removed or sunset features |
-
-> 💬 **Note:** Use the same icons across all version documents to maintain visual consistency.
+* Fixed token reuse issue in authentication API
+* Updated encryption routines in endpoint agent
+* Improved login flow performance under heavy load
 
 ***
 
-#### 💡 Best Practice Guidelines
+#### 🔹 **v3.9.5 — Minor Update**
 
-✅ Keep changelog entries concise and in past tense.\
-✅ Log only meaningful user-impacting changes — avoid internal dev notes.\
-✅ Use one consistent emoji/icon system across all entries.\
-✅ Update changelog _before_ publishing release notes.\
-✅ Maintain backward links to full version pages (v4.3.0 → “View Details”).
+* Updated onboarding visuals
+* Improved agent compatibility for latest Windows/macOS builds
 
-🧠 **Info:** A changelog isn’t just history — it’s proof of evolution, transparency, and technical maturity.
+***
+
+#### 🔹 **v3.9.2 — Compliance Update**
+
+* Updated data-handling policies for GDPR
+* Added automated audit log generation
+* Updated encryption to align with PCI DSS v4.0
+
+***
+
+#### 🔹 **v3.8.7 — Patch Update**
+
+* Improved scan stability for large datasets
+* Resolved logging latency during parallel scans
+* Optimized report generation for multi-agent systems
+
+***
+
+#### 🔹 **v3.8.4 — Patch Update**
+
+* Deprecated FTP-based export
+* Enhanced SFTP/API log export functionality
+* Updated encryption libraries for TLS 1.3 compliance

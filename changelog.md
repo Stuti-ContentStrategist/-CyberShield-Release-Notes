@@ -2,7 +2,8 @@
 
 ## 🧱 Overview
 
-The **CyberShield Changelog** provides a detailed, chronological record of all product versions — documenting fixes, improvements, and feature additions.\
+The **CyberShield Changelog** provides a detailed, chronological record of all product versions — documenting fixes, improvements, and feature additions.
+
 It serves as a technical log for developers, QA teams, and product managers to track incremental evolution over time.
 
 > 💡 **Tip:** A changelog is factual, not promotional — it should record _what changed_, _when_, and _why it matters._

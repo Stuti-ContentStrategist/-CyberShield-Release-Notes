@@ -2,7 +2,7 @@
 
 * [CyberShield Release Notes](README.md)
 
-## 📙 Release Notes
+## Release Notes
 
 * [v5.0.0](release-notes/v5.0.0.md)
 * [v4.3.0](release-notes/v4.3.0.md)
@@ -15,5 +15,5 @@
 
 ***
 
-* [📜 Changelog](changelog.md)
+* [Changelog](changelog.md)
 * [🆕 Product Updates](product-updates.md)

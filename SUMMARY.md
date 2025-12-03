@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📙 CyberShield Release Notes](README.md)
+* [CyberShield Release Notes](README.md)
 
 ## 📙 Release Notes
 

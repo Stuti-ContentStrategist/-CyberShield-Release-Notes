@@ -1,6 +1,6 @@
 # 🆕 Product Updates
 
-## 🧱 Overview
+## Overview
 
 The Product Updates page explains new features, improvements, and fixes in a clear, user-friendly format. It highlights how each change impacts security, usability, and performance.
 

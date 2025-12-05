@@ -16,4 +16,4 @@
 ***
 
 * [Changelog](changelog.md)
-* [🆕 Product Updates](product-updates.md)
+* [Product Updates](product-updates.md)
